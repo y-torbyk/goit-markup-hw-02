@@ -3,25 +3,34 @@ body {
 }
 
 .link {
-  font: Raleway;
-  font-weight: 700;
-  font-size: 26px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .web {
-  color: #2196f3;
+  color: #4d5ae5;
 }
 
 .studio {
-  color: #000000;
+  color: #2e2f42;
 }
 
-.studio:active {
-  color: #2196f3;
-}
 
-.web:hover .studio:hover .list-item:hover,
-.mail:hover,
-.tel:hover {
-  color: #2196f3;
+
+.list-item a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
 }
