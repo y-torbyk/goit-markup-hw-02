@@ -1,14 +1,19 @@
 body {
-  background-color: #ffffff;
-  font-family: Roboto;
+  background-color:  color: var(--color-main);
+  font-family: Roboto, sans-serif;
 }
 
-.link {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
+:root {
+  /* Text colors */
+  --main-txt-cl: #2E2F42;
+  --accent-txt-cl: #4d5ae5;
+  --color-main: #ffffff;
+  --hover-main: #404BBF;
+  --footer-second: #f4f4fd;
+  --background-hover: #404BBF;
+  --background-team: #F4F4FD;
+  --color-pgf: #434455;
+ 
 }
 
 h1,
@@ -21,14 +26,12 @@ p {
   margin: 0;
 }
 
-
-
 .web {
-  color: #4d5ae5;
+  color: var(--accent-txt-cl);
 }
 
 .studio {
-  color: #2e2f42;
+  color: var(--main-txt-cl);
 }
 
 ul {
@@ -39,6 +42,13 @@ a {
   text-decoration: none;
 }
 
+.link {
+  font-family: "Raleway";
+  /* font-style: normal; */
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+}
 
 /**
       |============================
@@ -46,46 +56,50 @@ a {
       |============================
     */
 
+
+    .link:hover,
+    .link:focus {
+      background: #404BBF;
+border: 1px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 2px;
+    }
+
+
     .list-item:hover,
     .list-item:focus {
-      color: #2E2F42;
-      box-shadow: 0px 4px 4px 0px #00000040;
+    
+      background: var(--background-hover);
+      border-radius: 2px;
 
     }
     
     .mail:hover,
     .mail:focus {
-      color: #434455;
+      color: var(--hover-main);
+      background: var(--hover-main);
     }
-    
+     
+
     .tel:hover,
     .tel:focus {
-      color: #434455;
+      color: var(--hover-main);
     }
-
-
-
 
 
 
 .list-item a {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   /* identical to box height, or 150% */
-
   letter-spacing: 0.02em;
 
   /* NAVY BLUE */
-
-  color: #2e2f42;
+  color: var(--main-txt-cl);
 }
 
 .address {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -95,12 +109,17 @@ a {
 
   /* SLATE */
 
-  color: #434455;
+  color: var(--hover-main);
 }
 
+
+.bunner {
+  background: var(--main-txt-cl);
+}
+
+
+
 .design {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
@@ -111,29 +130,40 @@ a {
 
   /* WHITE */
 
-  color: #ffffff;
+  color: var(--color-main);
 }
 
+
+
 .button {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 0.7;
+  background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
   /* identical to box height, or 150% */
 
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
+
+  width: 169px;
+height: 56px;
 
   /* WHITE */
 
-  color: #ffffff;
+  color: var(--color-main);
 }
 
+.button:hover,
+.button:focus {
+  background: #4D5AE5;
+  border-radius: 4px;
+}
+
+
+
+
 .opportunity {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -143,12 +173,10 @@ a {
 
   /* NAVY BLUE */
 
-  color: #2e2f42;
+  color: var(--main-txt-cl);
 }
 
-p {
-  font-family: "Roboto";
-  font-style: normal;
+.textp {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -158,14 +186,11 @@ p {
 
   /* SLATE */
 
-  color: #434455;
+  color: var(--hover-main);
 }
 
-h2 {
+.texth2 {
   /* Header 2 */
-
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -177,12 +202,33 @@ h2 {
 
   /* NAVY BLUE */
 
-  color: #2e2f42;
+  color: var(--main-txt-cl);
+}
+
+
+
+team {
+  background: var(--background-team);
 }
 
 .footer {
-  color: #f4f4fd;
+  
+  background: var(--main-txt-cl);
+  
 }
+
+
+.footer-p {
+  color: var(--footer-second);
+  font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+letter-spacing: 0.02em;
+}
+
+
 
 
 
@@ -192,17 +238,28 @@ h2 {
 
 
 .list-btn {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
+  font-weight: 500;
 font-size: 16px;
-line-height: 24px;
+line-height: 0.7;
+  text-align: center;
+  letter-spacing: 0.04em;
+  
+  /* IRIS */
+  color: #4D5AE5;
+  color: var(--accent-txt-cl);
 }
 
-h3 {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
+
+.list-btn:hover,
+.list-btn:focus {
+  background: var(--hover-main);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+
+.port-hdr {
+  ont-weight: 500;
 font-size: 20px;
 line-height: 24px;
 /* identical to box height, or 120% */
@@ -211,5 +268,25 @@ letter-spacing: 0.02em;
 
 /* NAVY BLUE */
 
-color: #2E2F42;
+color: var(--main-txt-cl);
 }
+
+.port-pgf {
+  font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: var(--color-pgf);
+}
+
+.cart {
+  background: var(--color-main);
+/* CORNFLOWER */
+
+border: 1px solid #E7E9FC;
+}
+
