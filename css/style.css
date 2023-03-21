@@ -57,59 +57,31 @@ a {
     */
 
 
-    .link:hover,
-    .link:focus {
-      background: #404BBF;
-border: 1px solid #000000;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 2px;
-    }
-
-
     .list-item:hover,
     .list-item:focus {
-    
-      background: var(--background-hover);
-      border-radius: 2px;
-
+      color: var(--hover-main)
     }
     
-    .mail:hover,
-    .mail:focus {
+    .address:hover,
+    .address:focus {
       color: var(--hover-main);
-      background: var(--hover-main);
     }
      
 
-    .tel:hover,
-    .tel:focus {
-      color: var(--hover-main);
-    }
-
-
-
-.list-item a {
+.list-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   /* identical to box height, or 150% */
   letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
   color: var(--main-txt-cl);
+
 }
 
 .address {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-
+  line-height: 0.7;
   letter-spacing: 0.02em;
-
-  /* SLATE */
-
-  color: var(--hover-main);
 }
 
 
@@ -122,7 +94,7 @@ border-radius: 2px;
 .design {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 0.9;
   /* or 107% */
 
   text-align: center;
@@ -135,38 +107,28 @@ border-radius: 2px;
 
 
 
-.button {
+.text-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 0.7;
-  background: #4D5AE5;
+  /* background: var(--accent-txt-cl); */
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-  /* identical to box height, or 150% */
-
   letter-spacing: 0.04em;
-
-  width: 169px;
-height: 56px;
-
-  /* WHITE */
-
-  color: var(--color-main);
+  cursor: pointer;
+ 
 }
 
-.button:hover,
-.button:focus {
-  background: #4D5AE5;
+.text-btn:hover,
+.text-btn:focus {
+  background: var(--accent-txt-cl);
   border-radius: 4px;
 }
-
-
 
 
 .opportunity {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 0.8;
   /* identical to box height, or 120% */
 
   letter-spacing: 0.02em;
@@ -177,23 +139,22 @@ height: 56px;
 }
 
 .textp {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 0.6;
   /* or 150% */
 
   letter-spacing: 0.02em;
 
   /* SLATE */
 
-  color: var(--hover-main);
+  
 }
 
 .texth2 {
   /* Header 2 */
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 0.9;
   /* identical to box height, or 111% */
 
   text-align: center;
@@ -205,16 +166,18 @@ height: 56px;
   color: var(--main-txt-cl);
 }
 
+.texth3 {
+  font-weight: 500;
+font-size: 20px;
+line-height: 0.8;
+}
 
-
-team {
+.team {
   background: var(--background-team);
 }
 
-.footer {
-  
-  background: var(--main-txt-cl);
-  
+.container-footer {
+  background: #2E2F42;
 }
 
 
@@ -222,7 +185,7 @@ team {
   color: var(--footer-second);
   font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 0.7;
 /* or 150% */
 
 letter-spacing: 0.02em;
@@ -261,7 +224,7 @@ border-radius: 4px;
 .port-hdr {
   ont-weight: 500;
 font-size: 20px;
-line-height: 24px;
+line-height: 0.8;
 /* identical to box height, or 120% */
 
 letter-spacing: 0.02em;
@@ -273,7 +236,7 @@ color: var(--main-txt-cl);
 
 .port-pgf {
   font-size: 16px;
-line-height: 24px;
+line-height: 0.7;
 /* identical to box height, or 150% */
 
 letter-spacing: 0.02em;
@@ -287,6 +250,5 @@ color: var(--color-pgf);
   background: var(--color-main);
 /* CORNFLOWER */
 
-border: 1px solid #E7E9FC;
 }
 
