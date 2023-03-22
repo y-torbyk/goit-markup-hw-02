@@ -1,19 +1,18 @@
 body {
-  background-color:  color: var(--color-main);
+  background-color: var(--color-main);
   font-family: Roboto, sans-serif;
 }
 
 :root {
   /* Text colors */
-  --main-txt-cl: #2E2F42;
+  --main-txt-cl: #2e2f42;
   --accent-txt-cl: #4d5ae5;
   --color-main: #ffffff;
-  --hover-main: #404BBF;
+  --hover-main: #404bbf;
   --footer-second: #f4f4fd;
-  --background-hover: #404BBF;
-  --background-team: #F4F4FD;
+  --background-hover: #404bbf;
+  --background-team: #f4f4fd;
   --color-pgf: #434455;
- 
 }
 
 h1,
@@ -43,11 +42,11 @@ a {
 }
 
 .link {
-  font-family: "Raleway";
-  /* font-style: normal; */
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
+  text-transform: uppercase;
 }
 
 /**
@@ -56,45 +55,39 @@ a {
       |============================
     */
 
+.hov:hover,
+.hov:focus {
+  color: var(--hover-main);
+}
 
-    .list-item:hover,
-    .list-item:focus {
-      color: var(--hover-main)
-    }
-    
-    .address:hover,
-    .address:focus {
-      color: var(--hover-main);
-    }
-     
+.address:hover,
+.address:focus {
+  color: var(--hover-main);
+}
 
-.list-item {
+.hov {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
-
 }
 
 .address {
   font-size: 16px;
-  line-height: 0.7;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--color-pgf);
 }
-
 
 .bunner {
   background: var(--main-txt-cl);
 }
 
-
-
 .design {
   font-weight: 700;
   font-size: 56px;
-  line-height: 0.9;
+  line-height: 1;
   /* or 107% */
 
   text-align: center;
@@ -105,17 +98,17 @@ a {
   color: var(--color-main);
 }
 
-
-
 .text-btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.7;
-  /* background: var(--accent-txt-cl); */
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  line-height: 1.5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   letter-spacing: 0.04em;
   cursor: pointer;
- 
+}
+
+.button {
+  background: var(--accent-txt-cl);
 }
 
 .text-btn:hover,
@@ -124,11 +117,10 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
-
 .opportunity {
   font-weight: 500;
   font-size: 20px;
-  line-height: 0.8;
+  line-height: 1.2;
   /* identical to box height, or 120% */
 
   letter-spacing: 0.02em;
@@ -140,21 +132,19 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 .textp {
   font-size: 16px;
-  line-height: 0.6;
+  line-height: 1.5;
   /* or 150% */
 
   letter-spacing: 0.02em;
 
   /* SLATE */
-
-  
 }
 
 .texth2 {
   /* Header 2 */
   font-weight: 700;
   font-size: 36px;
-  line-height: 0.9;
+  line-height: 1.1;
   /* identical to box height, or 111% */
 
   text-align: center;
@@ -168,8 +158,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 .texth3 {
   font-weight: 500;
-font-size: 20px;
-line-height: 0.8;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .team {
@@ -177,78 +167,64 @@ line-height: 0.8;
 }
 
 .container-footer {
-  background: #2E2F42;
+  background: var(--main-txt-cl);
 }
 
+.studioft {
+  color: var(--footer-second);
+}
 
 .footer-p {
   color: var(--footer-second);
-  font-weight: 400;
-font-size: 16px;
-line-height: 0.7;
-/* or 150% */
+  font-size: 16px;
+  line-height: 1.5;
+  /* or 150% */
 
-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 }
-
-
-
-
-
-
 
 /* PORTFOLIO */
 
-
-.list-btn {
+.text-btn {
+  font-family: "Roboto";
   font-weight: 500;
-font-size: 16px;
-line-height: 0.7;
+  font-size: 16px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
-  
-  /* IRIS */
-  color: #4D5AE5;
-  color: var(--accent-txt-cl);
 }
 
-
-.list-btn:hover,
-.list-btn:focus {
+.button:hover,
+.button:focus {
   background: var(--hover-main);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
 }
-
 
 .port-hdr {
-  ont-weight: 500;
-font-size: 20px;
-line-height: 0.8;
-/* identical to box height, or 120% */
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  /* identical to box height, or 120% */
 
-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 
-/* NAVY BLUE */
+  /* NAVY BLUE */
 
-color: var(--main-txt-cl);
+  color: var(--main-txt-cl);
 }
 
 .port-pgf {
   font-size: 16px;
-line-height: 0.7;
-/* identical to box height, or 150% */
+  line-height: 1.5;
+  /* identical to box height, or 150% */
 
-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 
-/* SLATE */
+  /* SLATE */
 
-color: var(--color-pgf);
+  color: var(--color-pgf);
 }
 
 .cart {
   background: var(--color-main);
-/* CORNFLOWER */
-
+  /* CORNFLOWER */
 }
-
