@@ -1,13 +1,14 @@
 body {
   background-color: var(--color-main);
   font-family: Roboto, sans-serif;
+  color: #434455;
 }
 
 :root {
   /* Text colors */
   --main-txt-cl: #2e2f42;
   --accent-txt-cl: #4d5ae5;
-  --color-main: #ffffff;
+  --color-main: #FFFFFF;
   --hover-main: #404bbf;
   --footer-second: #f4f4fd;
   --background-hover: #404bbf;
