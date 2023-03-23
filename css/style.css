@@ -61,8 +61,6 @@ a {
   color: var(--main-txt-cl);
 }
 
-
-
 /**
       |============================
       |Hover
@@ -71,16 +69,13 @@ a {
 
 .hov:hover,
 .hov:focus {
-  color: var(--hover-main);
+  color: var(--background-hover);
 }
 
 .address:hover,
 .address:focus {
   color: var(--hover-main);
 }
-
-
-
 
 .hov {
   font-weight: 500;
@@ -92,8 +87,10 @@ a {
 
 .address {
   font-size: 16px;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
   color: var(--color-pgf);
 }
 
@@ -118,14 +115,16 @@ a {
 .text-btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.07;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   letter-spacing: 0.04em;
   cursor: pointer;
 }
 
 .button {
+  font-family: "Roboto", sans-serif;
   background: var(--accent-txt-cl);
+  color: var(--color-main);
 }
 
 .text-btn:hover,
@@ -161,7 +160,7 @@ a {
   /* Header 2 */
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   /* identical to box height, or 111% */
 
   text-align: center;
