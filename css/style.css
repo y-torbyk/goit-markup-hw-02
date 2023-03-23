@@ -52,6 +52,17 @@ a {
   color: var(--accent-txt-cl);
 }
 
+.list {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-txt-cl);
+}
+
+
+
 /**
       |============================
       |Hover
@@ -67,6 +78,9 @@ a {
 .address:focus {
   color: var(--hover-main);
 }
+
+
+
 
 .hov {
   font-weight: 500;
