@@ -101,7 +101,7 @@ a {
 .design {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1;
+  line-height: 1.07;
   /* or 107% */
 
   text-align: center;
@@ -161,7 +161,7 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
- 
+
   /* identical to box height, or 111% */
 
   text-align: center;
@@ -210,20 +210,19 @@ a {
   text-align: center;
   letter-spacing: 0.04em;
   background-color: var(--background-team);
-  border: 1px solid #E7E9FC;
-border-radius: 4px;
-color: var(--accent-txt-cl)
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  color: var(--accent-txt-cl);
 }
 
 .list-btn {
   color: var(--accent-txt-cl);
-  
 }
 
 .text-btn:hover,
 .text-btn:focus {
   color: #ffffff;
-  background-color: var(--background-hover)
+  background-color: var(--background-hover);
 }
 
 .port-hdr {
