@@ -52,6 +52,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-txt-cl);
+  text-decoration: none;
 }
 
 .list {
@@ -62,6 +63,7 @@ a {
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
   background-color:#ffffff;
+  list-style: none;
 }
 
 .adr {
@@ -212,6 +214,9 @@ a {
   letter-spacing: 0.02em;
 }
 
+
+
+
 /* PORTFOLIO */
 
 .text-btn {
@@ -229,6 +234,8 @@ a {
 
 .list-btn {
   color: var(--accent-txt-cl);
+  background-color: var(--background-team);
+  cursor: pointer;
 }
 
 .text-btn:hover,
