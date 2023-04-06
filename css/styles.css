@@ -1,9 +1,9 @@
 body {
   background-color: var(--color-main);
   font-family: Roboto, sans-serif;
-  Weight: Regular; 
+  /* weight: Regular;  */
   color: #434455;
-  Letter Spacing: 2%;
+  /* Letter Spacing: 2%; */
 }
 
 :root {
@@ -28,248 +28,70 @@ p {
   margin: 0;
 }
 
-.web {
-  color: var(--accent-txt-cl);
-}
-
-.studio {
-  color: var(--main-txt-cl);
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.link {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--accent-txt-cl);
-  text-decoration: none;
-}
-
-.list {
-  list-style: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-txt-cl);
-  background-color:#ffffff;
-  list-style: none;
-}
-
-.adr {
-  font-style: normal;
-}
 
 /**
       |============================
-      |Hover
+      |Base styles
       |============================
     */
 
-.hov:hover,
-.hov:focus {
-  color: var(--background-hover);
-}
-
-.address:hover,
-.address:focus {
-  color: var(--hover-main);
-}
-
-.hov {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-txt-cl);
-  text-decoration:none;
-}
-
-.address {
-  font-size: 16px;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-
-  color: var(--color-pgf);
-}
-
-.bunner {
-  background: var(--main-txt-cl);
-}
-
-.design {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  /* or 107% */
-
-  text-align: center;
-  letter-spacing: 0.02em;
-
-  /* WHITE */
-
-  color: var(--color-main);
-}
-
-/* .text-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.07;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  letter-spacing: 0.04em;
-  cursor: pointer;
-} */
-
-
-
-.button {
-  font-family: "Roboto", sans-serif;
-  background: var(--accent-txt-cl);
-  color: var(--color-main);
-  cursor: pointer;
-}
-
-.text-btn:hover,
-.text-btn:focus {
-  background: var(--accent-txt-cl);
-  border-radius: 4px;
-}
-
-.opportunity {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  /* identical to box height, or 120% */
-
-  letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-
-  color: var(--main-txt-cl);
-}
-
-.textp {
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--color-pgf);
-  /* or 150% */
-
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-}
-
-.texth2 {
-  /* Header 2 */
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-
-  /* identical to box height, or 111% */
-
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-
-  /* NAVY BLUE */
-
-  color: var(--main-txt-cl);
-}
-
-.texth3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-}
-
-.team {
-  background: var(--background-team);
-}
-
-.container-footer {
-  background: var(--main-txt-cl);
-}
-
-.studioft {
-  color: var(--background-team);
-}
-
-.footer-p {
-  color: var(--footer-second);
-  font-size: 16px;
-  line-height: 1.5;
-  /* or 150% */
-
-  letter-spacing: 0.02em;
-}
 
 
 
 
-/* PORTFOLIO */
+/**
+      |============================
+      |Header styles
+      |============================
+    */
 
-.text-btn {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.04em;
-  background-color: var(--accent-txt-cl);
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-  color: var(--background-team);
-}
 
-.list-btn {
-  color: var(--accent-txt-cl);
-  background-color: var(--background-team);
-  cursor: pointer;
-}
 
-.text-btn:hover,
-.text-btn:focus {
-  color: #ffffff;
-  background-color: var(--background-hover);
-}
 
-.port-hdr {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  /* identical to box height, or 120% */
 
-  letter-spacing: 0.02em;
 
-  /* NAVY BLUE */
 
-  color: var(--main-txt-cl);
-}
+    .link {
+    }
+    .studio {
+    }
+    .list {
+    }
+    .nav-link {
+    }
+    .address {
+    }
+    .mail {
+    }
+    .tel {
+    }
+    .main-bunner {
+    }
+    .design-h1 {
+    }
+    .button-textn {
+    }
+    .strategy {
+    }
+    .opportunity {
+    }
+    .textp {
+    }
+    .doing {
+    }
+    .texth2 {
+    }
+    .team {
+    }
+    .texth3 {
+    }
+    .container-footer {
+    }
+    .web {
+    }
+    .studioft {
+    }
+    .footer-p {
+    }
 
-.port-pgf {
-  font-size: 16px;
-  line-height: 1.5;
-  /* identical to box height, or 150% */
-
-  letter-spacing: 0.02em;
-
-  /* SLATE */
-
-  color: var(--color-pgf);
-}
-
-.cart {
-  background: var(--color-main);
-  /* CORNFLOWER */
-}
+   
