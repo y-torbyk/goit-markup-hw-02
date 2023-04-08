@@ -28,21 +28,15 @@ p {
   margin: 0;
 }
 
-
 /**
       |============================
       |Base styles
       |============================
     */
 
-
-
 .link {
   text-decoration: none;
 }
-
-
-
 
 /**
       |============================
@@ -51,12 +45,12 @@ p {
     */
 
 .link {
-font-family: 'Roboto';
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--main-txt-cl);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-txt-cl);
 }
 
 .link:hover,
@@ -64,19 +58,21 @@ color: var(--main-txt-cl);
   color: var(--hover-main);
 }
 
-
 .studio {
 }
 .list {
 }
 .nav-link {
 }
-.address {
+
+.contact {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-pgf);
 }
-.mail {
-}
-.tel {
-}
+
 .main-bunner {
 }
 .design-h1 {
