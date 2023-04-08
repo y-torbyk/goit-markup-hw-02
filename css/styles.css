@@ -48,16 +48,16 @@ ul {
       |============================
     */
 
-.studio {
-  color: var(--main-txt-cl);
+.header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
 }
 
 .web {
   color: var(--accent-txt-cl);
 }
-
-
-
 
 .link {
   font-family: "Roboto", sans-serif;
