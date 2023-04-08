@@ -42,12 +42,23 @@ ul {
   list-style-type: none;
 }
 
-
 /**
       |============================
       |Header styles
       |============================
     */
+
+.studio {
+  color: var(--main-txt-cl);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
 
 .link {
   font-family: "Roboto", sans-serif;
