@@ -56,13 +56,8 @@ ul {
   color: var(--accent-txt-cl);
 }
 
-ul {
-  list-style-type: none;
-}
 
-a {
-  text-decoration: none;
-}
+
 
 .link {
   font-family: "Roboto", sans-serif;
