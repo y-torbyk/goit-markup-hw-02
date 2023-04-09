@@ -120,6 +120,14 @@ button {
   cursor: pointer;
 }
 
+
+.button:hover,
+.button:focus {
+  background: var(--accent-txt-cl);
+  border-radius: 4px;
+}
+
+
 .strategy {
 }
 
