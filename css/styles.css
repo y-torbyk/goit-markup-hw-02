@@ -16,6 +16,7 @@ body {
   --background-hover: #404bbf;
   --background-team: #f4f4fd;
   --color-pgf: #434455;
+  --border-button: #E7E9FC;
 }
 
 h1,
@@ -236,6 +237,14 @@ letter-spacing: 0.04em;
 /* IRIS */
 
 color: var(--accent-txt-cl);
+    }
+
+    .buttons {
+      background: var(--background-team);
+/* CORNFLOWER */
+
+border: 1px solid var(--border-button);
+border-radius: 4px;
     }
 
 
