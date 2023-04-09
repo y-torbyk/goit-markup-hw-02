@@ -16,7 +16,7 @@ body {
   --background-hover: #404bbf;
   --background-team: #f4f4fd;
   --color-pgf: #434455;
-  --border-button: #E7E9FC;
+  --border-button: #e7e9fc;
 }
 
 h1,
@@ -117,7 +117,6 @@ ul {
   background: var(--accent-txt-cl);
   color: var(--color-main);
   cursor: pointer;
-  
 }
 
 .button-textn:hover,
@@ -163,7 +162,6 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-txt-cl);
-  
 }
 .team {
   background: var(--background-team);
@@ -214,62 +212,60 @@ ul {
       |============================
     */
 
-    .bunners {
-    }
-    .listbtn {
-    }
-    .list {
-    }
-    .list-btn {
-    }
-    .text-btn {
-font-family: 'Roboto',sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
+.bunners {
+}
+.listbtn {
+}
+.list {
+}
+.list-btn {
+}
+.text-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
 
-/* IRIS */
+  /* IRIS */
 
-color: var(--accent-txt-cl);
-    }
+  color: var(--accent-txt-cl);
+}
 
-    .buttons {
-      background: var(--background-team);
-/* CORNFLOWER */
+.buttons {
+  background: var(--background-team);
+  border: 1px solid var(--border-button);
+  border-radius: 4px;
+}
 
-border: 1px solid var(--border-button);
-border-radius: 4px;
-    }
+.buttons:hover,
+.buttons:focus {
+  background: var(--background-hover);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
 
-
-    .buttons:hover,
-    .buttons:focus {
-      background: var(--background-hover);
-      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-      border-radius: 4px;
-    }
-
-    .buttons {
-    }
-    .portfolio {
-    }
-    .cart {
-    }
-    .prt-list {
-    }
-    .link {
-    }
-    .bottom-card {
-    }
-    .port-hdr {
-    }
-    .port-pgf {
-    }
-    .linl {
-    }
+.buttons {
+}
+.portfolio {
+}
+.cart {
+}
+.prt-list {
+}
+.link {
+}
+.bottom-card {
+}
+.port-hdr {
+}
+.port-pgf {
+}
+.linl {
+}
