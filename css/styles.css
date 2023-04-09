@@ -75,9 +75,6 @@ ul {
   color: var(--main-txt-cl);
 }
 
-/* .header {
-  text-transform: uppercase;
-} */
 
 .link:hover,
 .link:focus {
