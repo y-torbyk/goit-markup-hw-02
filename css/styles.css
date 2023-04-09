@@ -37,6 +37,7 @@ p {
 
 .link {
   text-decoration: none;
+  list-style-type: none;
 }
 
 ul {
@@ -64,7 +65,7 @@ ul {
   color: var(--main-txt-cl);
 }
 
-.link {
+/* .link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -72,7 +73,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
   text-decoration: none;
-}
+} */
 
 .link:hover,
 .link:focus {
