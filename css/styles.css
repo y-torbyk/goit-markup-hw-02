@@ -106,6 +106,7 @@ ul {
 }
 
 .button-textn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.07;
@@ -114,7 +115,6 @@ ul {
 }
 
 .button {
-  font-family: "Roboto", sans-serif;
   background: var(--accent-txt-cl);
   color: var(--color-main);
   cursor: pointer;
