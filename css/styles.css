@@ -254,6 +254,10 @@ ul {
 .portfolio {
 }
 .cart {
+  background: var(--color-main);
+/* CORNFLOWER */
+
+border: 1px solid var(--border-button);
 }
 .prt-list {
 }
@@ -271,7 +275,16 @@ ul {
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
 }
+
 .port-pgf {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--color-pgf);
+
 }
 .linl {
 }
