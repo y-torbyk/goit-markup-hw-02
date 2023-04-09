@@ -173,7 +173,7 @@ ul {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--color-main);
+  color: var(--main-txt-cl);
 }
 .textp {
   font-family: "Roboto", sans-serif;
