@@ -194,7 +194,7 @@ ul {
 }
 
 .studioft {
-  color: var(--background-team);
+  color: var(--footer-second);
 }
 
 .footer-p {
@@ -203,3 +203,9 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/**
+      |============================
+      |Portfolio
+      |============================
+    */
