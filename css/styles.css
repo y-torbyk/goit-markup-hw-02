@@ -112,6 +112,9 @@ ul {
   line-height: 1.07;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   letter-spacing: 0.04em;
+  background: var(--accent-txt-cl);
+  color: var(--color-main);
+  cursor: pointer;
 }
 
 .button {
