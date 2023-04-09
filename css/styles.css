@@ -48,7 +48,7 @@ ul {
       |============================
     */
 
-.web .studio {
+.web, .studio {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
