@@ -48,22 +48,20 @@ ul {
       |============================
     */
 
-    .link .header {
-      font-family: "Raleway";
-      font-style: normal;
-      font-weight: 800;
-      font-size: 18px;
-      line-height: 1.16;
-      color: var(--main-txt-cl);
-    }
-    
-    .web {
-      color: var(--accent-txt-cl);
-    }
-    
+.header {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  color: var(--main-txt-cl);
+}
 
+.web {
+  color: var(--accent-txt-cl);
+}
 
-    .link {
+.link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -76,7 +74,6 @@ ul {
 .link:focus {
   color: var(--hover-main);
 }
-
 
 .studio {
 }
