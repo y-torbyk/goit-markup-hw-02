@@ -59,7 +59,6 @@ ul {
   text-decoration: none;
 }
 
-
 .studio {
   color: var(--main-txt-cl);
 }
@@ -87,11 +86,15 @@ ul {
   font-style: normal;
 }
 
+.address {
+  font-style: normal;
+}
+
 .main-bunner {
   background-color: var(--main-txt-cl);
 }
 
-.design-h1 {
+.design-h {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -106,12 +109,13 @@ ul {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.07;
+  line-height: 1.5;
 
   letter-spacing: 0.04em;
   background: var(--accent-txt-cl);
   color: var(--color-main);
   cursor: pointer;
+  
 }
 
 .button-textn:hover,
@@ -145,12 +149,12 @@ ul {
 
 .doing {
 }
-.texth2 {
+.texthtwo {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   /* identical to box height, or 111% */
 
   text-align: center;
@@ -169,7 +173,7 @@ ul {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--main-txt-cl);
+  color: var(--color-main);
 }
 .textp {
   font-family: "Roboto", sans-serif;
