@@ -54,6 +54,7 @@ ul {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
+  color: var(--main-txt-cl);
 }
 
 .web {
