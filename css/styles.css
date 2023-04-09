@@ -48,22 +48,28 @@ ul {
       |============================
     */
 
-.studio {
-  font-family: "Raleway";
+.logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
   text-transform: uppercase;
   color: var(--main-txt-cl);
+  letter-spacing: 0.03em;
 }
 
-.web {
+/* .web {
   color: var(--accent-txt-cl);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   text-transform: uppercase;
   line-height: 1.16;
+  letter-spacing: 0.03em;
+} */
+
+.studio {
+  color: var(--main-txt-cl);
 }
 
 .link {
