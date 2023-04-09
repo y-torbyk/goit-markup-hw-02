@@ -198,6 +198,7 @@ ul {
 
 .studioft {
   color: var(--footer-second);
+  text-transform: uppercase;
 }
 
 .footer-p {
