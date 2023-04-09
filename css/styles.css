@@ -56,6 +56,8 @@ ul {
   text-transform: uppercase;
   color: var(--main-txt-cl);
   letter-spacing: 0.03em;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 /* .web {
