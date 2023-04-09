@@ -162,11 +162,12 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-txt-cl);
+  
 }
 .team {
   background: var(--background-team);
 }
-.texth3 {
+.texththree {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -175,6 +176,7 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
+  background-color: var(--color-main);
 }
 .textp {
   font-family: "Roboto", sans-serif;
@@ -201,7 +203,7 @@ ul {
 .footer-p {
   color: var(--footer-second);
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.17;
   letter-spacing: 0.02em;
 }
 
