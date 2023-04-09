@@ -54,10 +54,9 @@ ul {
   font-size: 18px;
   line-height: 1.16;
   text-transform: uppercase;
-  color: var(--main-txt-cl);
+  color: var(--accent-txt-cl);
   letter-spacing: 0.03em;
   text-decoration: none;
-  list-style-type: none;
 }
 
 /* .web {
@@ -83,12 +82,10 @@ ul {
   color: var(--main-txt-cl);
 }
 
-
 .link:hover,
 .link:focus {
   color: var(--hover-main);
 }
-
 
 .contact {
   font-family: "Roboto", sans-serif;
