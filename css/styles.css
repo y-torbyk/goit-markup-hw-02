@@ -134,27 +134,64 @@ ul {
 }
 
 .textp {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-pgf);
 }
 
 .doing {
 }
 .texth2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  /* identical to box height, or 111% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-txt-cl);
 }
 .team {
+  background: var(--background-team);
 }
 .texth3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-txt-cl);
 }
+
+.textp {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-pgf);
+}
+
 .container-footer {
+  background: var(--main-txt-cl);
 }
 .web {
 }
 .studioft {
 }
 .footer-p {
+  color: var(--footer-second);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
