@@ -243,9 +243,6 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-
-  /* IRIS */
-
   color: var(--accent-txt-cl);
 }
 
@@ -253,6 +250,7 @@ ul {
   background: var(--background-team);
   border: 1px solid var(--border-button);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .buttons:hover,
